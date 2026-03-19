@@ -27,5 +27,4 @@ fun main() {
     // ❌ 5. 不安全类型转换
     val obj: Any = "hello"
     val num = obj as Int
-    println(num)
 }
