@@ -28,8 +28,4 @@ fun main() {
     val obj: Any = "hello"
     val num = obj as Int
     println(num)
-
-    // ❌ 6. 未处理异常
-    val list = listOf(1, 2, 3)
-    println(list[10])
 }
